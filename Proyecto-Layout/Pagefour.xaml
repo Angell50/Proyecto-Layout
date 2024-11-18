@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Layout.Pagefour"
+             Title="STACK LAYOUT">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <!-- Etiqueta 1 con tamaño de fuente grande -->
+        <Label Text="Angel Armando Vela Tituaña" FontSize="Large" />
+        <!-- Etiqueta 2 con tamaño de fuente mediano -->
+        <Label Text="Esteban Eduardo Galindo Vasquez" FontSize="Medium" />
+        <!-- Etiqueta 3 con tamaño de fuente pequeño -->
+        <Label Text="Mateo Mikael Pillajo Guijarro" FontSize="Small" />
+        <!-- Botón que redirige a PageDos -->
+        <Button Text="Ir a PageDos" Clicked="OnButtonClicked" />
+    </StackLayout>
+</ContentPage>

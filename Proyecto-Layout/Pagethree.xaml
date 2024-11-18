@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Layout.Pagethree"
+             Title="FLEX LAYOUT">
+    <ScrollView>
+        <FlexLayout Direction="Column" AlignItems="Start">
+            <!-- Elemento 1 -->
+            <StackLayout Orientation="Horizontal" Spacing="100">
+                <Image Source="imagen1.png" WidthRequest="250" HeightRequest="250">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" CommandParameter="PageUno" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="IMAGEN1" VerticalOptions="Center" />
+            </StackLayout>
+            <!-- Elemento 2 -->
+            <StackLayout Orientation="Horizontal" Spacing="100">
+                <Image Source="imagen2.png" WidthRequest="250" HeightRequest="250">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" CommandParameter="PageUno" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="IMAGEN2" VerticalOptions="Center" />
+            </StackLayout>
+            <!-- Elemento 3 -->
+            <StackLayout Orientation="Horizontal" Spacing="100">
+                <Image Source="imagen3.png" WidthRequest="250" HeightRequest="250">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" CommandParameter="PageUno" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="IMAGEN3" VerticalOptions="Center" />
+            </StackLayout>
+            <!-- Elemento 4 -->
+            <StackLayout Orientation="Horizontal" Spacing="100">
+                <Image Source="imagen4.png" WidthRequest="250" HeightRequest="250">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" CommandParameter="PageUno" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="IMAGEN4" VerticalOptions="Center" />
+            </StackLayout>
+            <!-- Elemento 5 -->
+            <StackLayout Orientation="Horizontal" Spacing="100">
+                <Image Source="imagen5.png" WidthRequest="250" HeightRequest="250">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" CommandParameter="PageUno" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="IMAGEN5" VerticalOptions="Center" />
+            </StackLayout>
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>
