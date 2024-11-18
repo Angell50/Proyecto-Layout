@@ -3,14 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Proyecto_Layout.Pagefour"
              Title="STACK LAYOUT">
+    
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <!-- Etiqueta 1 con tamaño de fuente grande -->
-        <Label Text="Angel Armando Vela Tituaña" FontSize="Large" />
-        <!-- Etiqueta 2 con tamaño de fuente mediano -->
-        <Label Text="Esteban Eduardo Galindo Vasquez" FontSize="Medium" />
-        <!-- Etiqueta 3 con tamaño de fuente pequeño -->
-        <Label Text="Mateo Mikael Pillajo Guijarro" FontSize="Small" />
+        <!-- Etiqueta 1 -->
+        <Label Text="Angel Armando Vela Tituaña" 
+               SemanticProperties.HeadingLevel="Level1" 
+               Style="{StaticResource Headline}"/>
+        <Label Text=" " HeightRequest="20" />
+        <!-- Etiqueta 2 -->
+        <Label Text="Esteban Eduardo Galindo Vasquez" 
+               SemanticProperties.HeadingLevel="Level2" 
+               Style="{StaticResource SubHeadline}" />
+        <Label Text=" " HeightRequest="20" />
+        <!-- Etiqueta 3 -->
+        <Label Text="Mateo Mikael Pillajo Guijarro" 
+               SemanticProperties.HeadingLevel="Level3" 
+               Style="{StaticResource SubHeadline}" />
+        <Label Text=" " HeightRequest="20" />
         <!-- Botón que redirige a PageDos -->
-        <Button Text="Ir a PageDos" Clicked="OnButtonClicked" />
+        <Button
+            x:Name="CounterBtn"
+            Text="Ir a FlexLayout" Clicked="OnButtonClicked" />
     </StackLayout>
 </ContentPage>

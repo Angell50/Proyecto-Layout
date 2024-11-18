@@ -9,7 +9,7 @@ public partial class Pagefour : ContentPage
 
     private async void OnButtonClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Pagetwo());
+        await Navigation.PushAsync(new Pagethree());
     }
 
 }

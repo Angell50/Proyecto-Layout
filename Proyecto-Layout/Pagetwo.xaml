@@ -22,9 +22,10 @@
         <BoxView Color="Blue" Grid.Row="1" Grid.Column="0" />
         <!-- Cuadrado 4 con botón -->
         <StackLayout Grid.Row="1" Grid.Column="1">
-            <BoxView Color="Yellow" />
-            <Button Text="Volver a PageCuatro"
-                    VerticalOptions="End"
+            <BoxView Color="Black"/>
+            <Button Text="Ir a StackLayout"
+                    VerticalOptions="CenterAndExpand"
+          
                     Clicked="OnButtonClicked" />
         </StackLayout>
     </Grid>
